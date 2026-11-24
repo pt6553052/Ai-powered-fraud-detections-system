@@ -354,8 +354,7 @@ All secured endpoints require the header `Authorization: Bearer <JWT_TOKEN>`.
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/fraudshield-ai.git
-cd fraudshield-ai
+git clone https://github.com/pt6553052/Ai-powered-fraud-detections-system.git
 ```
 
 ### 2. Running with Out-of-the-Box Zero-Config (Embedded H2)

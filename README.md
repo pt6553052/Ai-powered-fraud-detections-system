@@ -1,7 +1,29 @@
-# FraudShield AI: AI-Powered Fraud Detection System
+# FraudShield AI – Simple, Beginner-Friendly & AI-Powered Fraud Detection System
 
-> **Tagline**: *Detect. Analyze. Protect.*  
-> An enterprise-grade, modern full-stack financial transaction fraud detection and risk analytics platform built with **Java 17+**, **Spring Boot 3**, **Spring Security (JWT)**, **MySQL & JPA**, **Google Gemini AI**, and **Chart.js**.
+> **Tagline**: *Check for Fraud • Stay Safe* (धोखाधड़ी की जाँच • सुरक्षित रहें)  
+> A modern, accessible, and beginner-friendly financial transaction safety checker built with **Java 17+**, **Spring Boot 3.3.4**, **Spring Security (JWT)**, **Spring Data JPA (H2/MySQL)**, and an ultra-simple bilingual web interface (**English & हिंदी**).
+
+---
+
+## 🌟 Beginner-Friendly Transformation Highlights
+
+FraudShield AI is designed so that anyone—regardless of technical or financial background—can check transaction safety without confusion:
+
+- **Zero-Confusion Language**: All technical jargon replaced with plain, everyday words (e.g. *Risk Score* $\rightarrow$ **Safety Score (0-100)**, *Low Risk* $\rightarrow$ **Looks Safe**, *Medium Risk* $\rightarrow$ **Be Careful**, *High Risk* $\rightarrow$ **Needs Attention**).
+- **Bilingual Interface (English & हिंदी)**: Instant 1-click language switcher in the header translating all screens, steps, results, advice, and FAQs.
+- **3-Step Home Workflow**:
+  1. *Enter Details* (Amount and shop/business name)
+  2. *Click Check* (Safety check against known warning signs)
+  3. *See the Result* (Clear everyday advice)
+- **Step-by-Step Transaction Form**: Basic details first (Amount, Shop Name, Date) with optional additional details (Payment Method, Location, Device). Users are never asked to enter technical signals like account age, transaction frequency, or device fingerprints.
+- **Plain-Language Result Screen**:
+  - **LOOKS SAFE** (Green): *"Nothing unusual was found in the details you provided. Always verify payments before confirming them."*
+  - **BE CAREFUL** (Amber): *"Some details look unusual. Please check the payment information before continuing."*
+  - **NEEDS ATTENTION** (Red): *"This transaction has several warning signs. Do not proceed until you have verified it through your bank or payment provider."*
+- **Actionable Advice**: Tailored "What Should I Do Next?" steps for every outcome.
+- **Previous Checks (History)**: Search by reference or shop name, filter by safety category, and review previous checks with strict backend user isolation.
+- **Hardened Security**: Public registration strictly creates standard user accounts (`ROLE_USER`), duplicate submissions within 5 seconds are prevented, and error messages never expose passwords or stack traces.
+- **WCAG 2.2 AA Accessibility**: Large touch targets ($\ge 48$px), visible focus rings, readable fonts (16px base), and mobile bottom navigation for screens $\le 768$px.
 
 ---
 
